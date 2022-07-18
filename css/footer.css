@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+#new_ft {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+#new_ft .ft_area {
+    width: 100%;
+    height: auto;
+    background-color: #ae8c69;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 20px 30px;
+    margin-bottom: 15px;
+}
+
+#new_ft .ft_area .ft_logo {
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+#new_ft .ft_area .ft_logo>img {
+    width: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+#new_ft .ft_area .ft_txt {
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+#new_ft .ft_area .ft_txt>li {
+    width: auto;
+    height: auto;
+    position: relative;
+    color: #fff;
+    font-size: 0.5625rem;
+    font-weight: 300;
+    margin-bottom: 3px;
+    letter-spacing: -.5px;
+}
+
+#new_ft .ft_area .ft_txt>li>span {
+    font-weight: 600;
+}
+
+#new_ft .ft_area .ft_sns {
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+#new_ft .ft_area .ft_sns>ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -moz-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 7px;
+}
+
+#new_ft .ft_area .ft_sns>ul>li {
+    width: 27px;
+    height: 28px;
+    margin-right: 8px;
+}
+
+#new_ft .ft_area .ft_sns>ul>li:last-of-type {
+    margin-right: 0;
+}
+
+#new_ft .ft_area .ft_sns>ul>li>a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#new_ft .ft_area .ft_sns>ul>li>a>img {
+    width: auto;
+    max-width: 100%;
+}
+
+#new_ft .ft_area .ft_sns>ul>li.txt {
+    width: auto;
+    font-size: 0.75rem;
+    color: #fff;
+    font-weight: 500;
+}
+
+#new_ft .ft_area .ft_sns>p {
+    font-size: 0.5rem;
+    color: #fff;
+    padding-right: 20px;
+    letter-spacing: -.5px;
+}
+
+#new_ft>p {
+    font-size: 0.75rem;
+    text-align: center;
+    line-height: 17px;
+    font-weight: 500;
+    letter-spacing: -.5px;
+    color: #000;
+}
+
+#new_ft>p>span {
+    font-weight: 800;
+}

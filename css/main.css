@@ -1,0 +1,208 @@
+@charset "UTF-8";
+
+#new_sc {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#new_sc .sc_area {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#new_sc .sc_con {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#new_sc .sc_con .board_con {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-bottom: 0px;
+    margin-bottom: 25px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+}
+
+#new_sc .sc_con .board_full_con {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+#new_sc .sc_con .board_con .board_item {
+    width: 310px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+#new_sc .sc_con .board_con .board_item:nth-of-type(3),
+#new_sc .sc_con .board_con .board_item:nth-of-type(4) {
+    margin-bottom: 0;
+}
+
+#new_sc .sc_con .board_con .board_item .board_tit {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+#new_sc .sc_con .board_con .board_item .board_tit>img {
+    width: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+#new_sc .sc_con .board_full_con .board_tit {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+#new_sc .sc_con .board_full_con .board_tit>img {
+    width: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+#new_sc .sc_con .board_con .board_item .board_list {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#new_sc .sc_con .board_con .board_item .board_list>li {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#new_sc .sc_con .board_con .board_item .board_list>li>a {
+    font-size: 0.8125rem;
+    letter-spacing: -.5px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #000;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    word-break: keep-all;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 10px;
+}
+
+#new_sc .sc_con .board_con .board_item .board_list>li>a:hover {
+    text-decoration: underline;
+}
+
+#new_sc .sc_con .board_con .board_item .board_list>li>a>span {
+    font-weight: 600;
+    width: 100%;
+    white-space: nowrap;
+    margin-right: 5px;
+    margin-left: -10px;
+}
+
+#new_sc .sc_con .gal_board_con {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+#new_sc .sc_con .gal_board_con .gal_item {
+    width: 310px;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+#new_sc .sc_con .gal_board_con .gal_item .gal_tit {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+#new_sc .sc_con .gal_board_con .gal_item .gal_tit>img {
+    width: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+#new_sc .sc_con .gal_board_con .gal_item .gal_img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+#new_sc .sc_con .gal_board_con .gal_item .gal_img>a {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#new_sc .sc_con .gal_board_con .gal_item .gal_img>a>img {
+    width: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+#new_sc .sc_con .gal_board_con .gal_item .gal_img>a>p {
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -.5px;
+    word-break: keep-all;
+}
+
+#new_sc .sc_con .gal_board_con .gal_item .gal_img>a:hover>p {
+    text-decoration: underline;
+}
